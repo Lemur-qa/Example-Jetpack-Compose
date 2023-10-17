@@ -24,17 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.examplejetpackcompose.ui.theme.ExampleJetpackComposeTheme
-/*Set the image to fill the entire screen's width.
-Set the first Text composable to a 24sp font size and 16dp padding (start, end, bottom, and top).
-Set the second Text composable to a default font size, 16dp padding(start and end), and Justify text align.
-Set the third Text composable to a default font size, 16dp padding (start, end, bottom, and top), and Justify text align.
-Resources
-You need this image to import into your project and these strings:
 
-Hint: Which composable aligns its children vertically?
-
-References
-TextAlign.Justify property*/
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,6 +43,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
 
 @Composable
 fun Greeting(title: String, subtitle1: String, subtitle2: String, modifier: Modifier = Modifier) {
